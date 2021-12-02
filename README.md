@@ -3,8 +3,58 @@
 
 # Instructons
 
-> install pimax eye tracking software like usual. !!download the entire set of files!! update the firmware from step 1 in the files, run the runtime.exe then check to see if it matches the settings in amcap (pictures provided) after that is installed replace the files with the ones in lib (image is provided for instructions)
+> if you are like me and saw the Droolon Pi1 eye tracking module and thought. wow, eye tracking on a Pimax! that must be great! and you buy it. and low and behold. it is barely usable. it can not track properly, it gets very hot etc. well I got fed up with that. so I went out and made my own software/firmware for it. (the firmware is a branch of an official 7invensun firmware that 7i has provided to me through an email)
 
+well, what does this that you made do? how can it improve on a product that seems hopeless?
+
+as long as you follow the instructions I listed on the github repository, the Eye tracker becomes
+
+more accurate
+
+less hot less
+
+power draw
+
+still runs at 120 hertz*
+
+and no longer a need for an external cable to the pc
+
+it performs best directly connected to the headset, with the 15mm foam. please be aware, the cable thing has only been tested by 2 people, both with the same results, that might not be the case for you, as well as the size of the facial interface.
+
+I will continue to try to update this as time goes on to better improve upon the code.
+
+make sure to download the full code it will not work unless you do so.
+![firstimg](https://community.openmr.ai/uploads/default/original/3X/f/0/f001d743b122f7a68d706430d4210539876ec131.png)
+
+also make sure. you followed Pimax’s original instructions for the Eye Tracking module. as that is required for this to work.
+
+once you have done that, the files are listed in numerical order of what to do
+![secondimg](https://community.openmr.ai/uploads/default/original/3X/b/6/b6bb85dfba8456752fd0aaa29829bd68ad65459a.png)
+start by running the firmware upgrader. then run the runtime .exe
+after that, make sure to run the AMCap that comes with the files on the top right you will see the words “capture” click that, and in the drop down click “Set Frame Rate”
+![thirdimg](https://community.openmr.ai/uploads/default/original/3X/5/9/59a6fd74dc800ac46aab951ccda939c0a914d229.png)
+set your frame rate to look like mine. it should say “10000” and the “Use Frame Rate” box should be checked.
+![4thimg](https://community.openmr.ai/uploads/default/original/3X/4/d/4de3e3e33c8eff1dd44bfe933ee3f3d530fe6b75.png)
+once that is done, click OK
+
+if you click on “options” in the drop down, click “Video Capture Pin”
+![fithimg](https://community.openmr.ai/uploads/default/original/3X/a/a/aa5b632281f7842fb1516f0e5199260b9a075f06.png)
+have that match these settings. this will provide it with 120 hertz at the default resolution.
+once you are done click “Apply” then click “OK”
+![sixthimg](https://community.openmr.ai/uploads/default/original/3X/f/4/f4df7e1dd23fe36007db50f254a13dd493b83de7.png)
+
+it should now say 120 fps as shown below
+![7thimg](https://community.openmr.ai/uploads/default/original/3X/e/f/efb2bf48aebb5e257ed1976087617964f777999f.png)
+Next up you will need the file called “lib”
+replace the files in the AseeVR runtime with these. this will make the tracking more accurate.
+![firstimg](https://community.openmr.ai/uploads/default/original/3X/0/b/0b6ccfbfca6bcf444b58c0155f73e66f3e62db7c.png)
+
+
+close AseeVR with task manager (or right click and select exit) same goes for the program called “Forward” power down the vr headset by holding the power button. wait roughly 10 seconds and turn the Pimax headset back on. and start AseeVR.
+
+you will notice the eye tracking is now significantly more accurate and slightly smoother. i am still working out the bugs as it is still not fully done. but as of now. it changes the eye tracker from “functional” to “usable”
+
+thanks so much for your time! and i hope you enjoy the eye tracking! any questions comments or concerns, please message me on discord @guppyexpress#0001
 
 
 <br>
