@@ -1,6 +1,0 @@
-
-code:    CEGGJVSZ
-
-The most important point：
-If the update is not successful, do not disconnect HMD and DroolonPi1 from the computer and start again until the update is successful.
-Otherwise, DroolonPi1 will need to be returned to China for repair.
