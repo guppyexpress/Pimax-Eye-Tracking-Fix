@@ -51,4 +51,5 @@ make sure you are using the ET on 2.0 mode where it is connected directly to the
 <br> <br> <br> 
 Any questions or concerns feel free to dm me on discord @ guppyexpress # 0001
 if you want to support the work on this eye tracking, feel free to donate to my Ko-Fi.
-https://ko-fi.com/guppyexpress
+<a href='https://ko-fi.com/guppyexpress' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Support the development at ko-fi.com' /> </a> 
+
