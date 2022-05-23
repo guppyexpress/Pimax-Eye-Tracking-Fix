@@ -1,7 +1,10 @@
 # Pimax Eye tracking Fix
 
 
+
 # Instructons
+
+**<H1>IF YOU ALREADY HAVE THE LAST VERSION OF ASEEVR INSTALLED JUST DOWNLOAD THE EXE FROM THE RELEASES PAGE. IF THIS IS YOUR FIRST TIME FOLLOW THE INSTRUCTIONS</H1>**
 
 Download the eye tracking from Pimax's webite here 
 https://drive.google.com/file/d/1ELDtOnMa-MkgchmWFf7w5an-iPOFtQL8/view?ref=Nebo&_ga=2.157958394.1121053981.1651257342-354291550.1593067405
@@ -19,9 +22,13 @@ and to actually perform
 
 <br>
 after that, make sure to run the AMCap that comes with the files on the top right you will see the words “capture” click that, and in the drop down click “Set Frame Rate”
-![thirdimg](https://community.openmr.ai/uploads/default/original/3X/5/9/59a6fd74dc800ac46aab951ccda939c0a914d229.png)
+
+![thirdtimg](https://community.openmr.ai/uploads/default/original/3X/5/9/59a6fd74dc800ac46aab951ccda939c0a914d229.png)
+
 set your frame rate to look like mine. it should say “10000” and the “Use Frame Rate” box should be checked.
-![4thimg](https://community.openmr.ai/uploads/default/original/3X/4/d/4de3e3e33c8eff1dd44bfe933ee3f3d530fe6b75.png)
+
+![fourthimg](https://community.openmr.ai/uploads/default/original/3X/4/d/4de3e3e33c8eff1dd44bfe933ee3f3d530fe6b75.png)
+
 once that is done, click OK
 
 if you click on “options” in the drop down, click “Video Capture Pin”
@@ -34,7 +41,7 @@ it should now say 120 fps as shown below
 ![7thimg](https://community.openmr.ai/uploads/default/original/3X/e/f/efb2bf48aebb5e257ed1976087617964f777999f.png)
 <br>
 
-#what is included in this software?
+# What is included in this software?
 
 the firmware upgrader.
 custom AseeVR installer exe 
